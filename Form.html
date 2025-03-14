@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Form</title>
+</head>
+<body>
+  <style>
+     body{
+           background-color:black;
+           color:white;
+           font-size:18px;
+           font-style:italic;
+           font-family:sans-serif;
+         }
+   ol{
+       font-size:15px
+      }
+   h2{
+       font-family:"Press Start 2P",sans-serif;
+   #tr1{
+         font-size:18px
+        }
+  </style>
+  <h2>
+    <ol>
+      <li>Enter Your Username.</li>
+      <li>Enter Your School's Name.'</li>
+      <li>Select Which Subjects You Are Studing.</li>
+      <li>Select The State You Live In.</li>
+      <li>Please Give Me A Feedback.</li>
+      <li>Click On Submit.</li>
+    </ol>
+  </h2>
+   <caption>My Information</caption>
+   <table>
+    <tr id="tr1">
+      <th>Name</th>
+      <th>Class</th>
+      <th>Section</th>
+      <th>Roll No.</th>
+    </tr>
+    <tr>
+      <td>Md.Aasim</td>
+      <td>9</td>
+      <td>A</td>
+      <td>7</td>
+    </tr>
+  </table>  
+  <form action="/action.php">
+    <input type="text"placeholder="Enter Your Username">
+    <br><br>
+    <input type="text"placeholder="Enter Your School's Name">
+    <h3>Select Your Class:</h3>
+    <br>
+    <label for="id1">
+      <input type="radio"value="Class IX"name="class"id="id1">Class IX
+    </label>
+    <br>
+    </br>
+    <label for="id2">
+      <input type="radio"value="Class X"name="class"id="id2">Class X
+    </label>
+    <br> 
+    </br>
+    <label for="id3">
+      <input type="radio"value="Class XI"name="class"id="id3">Class XI
+    </label>
+    <br>
+    </br>
+      <label for="id4">
+      <input type="radio"value="Class XII"name="class"id="id4">Class XI
+    </label>
+    <br>
+    </br>
+     <h3>Select Your Subjects:</h3>
+    <br> 
+    <label for="maths">
+      <input type="checkbox"value="Maths"name="sub"id="maths">Maths
+    </label>
+    <br>
+    </br>
+    <label for="phy">
+      <input type="checkbox"value="Physics"name="sub"id="phy">Physics
+    </label>
+    <br> 
+    </br>
+    <label for="chem">
+      <input type="checkbox"value="Chemistry"name="sub"id="chem">Chemistry
+    </label>
+    <br>
+    </br>
+      <label for="bio">
+      <input type="checkbox"value="Biology"name="sub"id="bio">Biology
+    </label>
+    <br>
+    </br>
+    <label for="comp">
+      <input type="checkbox"value="Computer Science"name="sub"id="comp">Computer
+    </label>
+    <br>
+    </br>
+    <select name="State">
+      <option value="West Bengal">West Bengal</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Maharashtra">Maharashtra</option>
+      <option value="Gujarat">Gujarat</option>
+    </select><br><br>
+    <textarea name="Feedback"id="101"placeholder="Please give me your feedback"rows="4"></textarea>
+    <br><br>
+    <input type="submit"value="submit"
+  </form>
+    <br><br>
+    <a href="https://youtu.be/HcOc7P5BMi4?feature=shared"><img src="HTMl.jpg"width="300"/></a>
+    <br>
+    This Video From A Youtube Channel:Apnacollege Has Helped Me A Lot!(If You Want To Play It Then Click On The Image.)
+</body>
+</html>
